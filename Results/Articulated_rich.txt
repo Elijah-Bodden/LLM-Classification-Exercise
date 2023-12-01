@@ -1,0 +1,50 @@
+True and assigned labels for each item, 1 batch
+
+Task 0: 1.0
+Rules: ['The general rule is: Words with 10 or more letters are labeled True, and words with fewer than 10 letters are labeled False. There are no exceptions to this rule in the given data.']
+Targets: ['uohy', 'md', 'tenfnjmuih', 'm', 'gdag', 'w', 'dnyt', 'tig', 'vfqdtexwab', 'biku', 'tlwkfrddkzdv', 'xhklpxjzda', 'nkmbzwwpuocekxr', 'ztebhijhkzowc', 'cqgohtjwxap', 'wwy', 'ywt', 'vddrfljcwlypk', 'qjpvxakkvqjy', 'zpoedlvxdd']
+Assigned labels: ['False', 'False', 'True', 'False', 'False', 'False', 'False', 'False', 'True', 'False', 'True', 'True', 'True', 'True', 'True', 'False', 'False', 'True', 'True', 'True']
+True labels: ['False', 'False', 'True', 'False', 'False', 'False', 'False', 'False', 'True', 'False', 'True', 'True', 'True', 'True', 'True', 'False', 'False', 'True', 'True', 'True']
+
+Task 1: 1.0
+Rules: ['The general rule is that traditionally male names are labeled True, and traditionally female names are labeled False.']
+Targets: ['Charles', 'Xanthe', 'Yardley', 'Christopher', 'Thomas', 'Jessica', 'Ulysses', 'Vespera', 'Karen', 'Tamsin', 'Wolfgang', 'Joseph', 'Jorvik', 'Lisa', 'Sarah', 'Rafferty', 'Philomena', 'Elspeth', 'David', 'Nancy']
+Assigned labels: ['True', 'False', 'False', 'True', 'True', 'True', 'False', 'False', 'True', 'False', 'False', 'True', 'False', 'True', 'True', 'False', 'False', 'False', 'True', 'True']
+True labels: ['True', 'False', 'False', 'True', 'True', 'True', 'False', 'False', 'True', 'False', 'False', 'True', 'False', 'True', 'True', 'False', 'False', 'False', 'True', 'True']
+
+Task 2: 0.95
+Rules: ['True labels are assigned to palaces, castles, and religious buildings, while False labels are assigned to modern structures, monuments, and non-royal/non-religious buildings.']
+Targets: ["St. Paul's Cathedral", 'The Red Fort', 'The Royal Pavilion', 'Kazan Cathedral', 'The Pentagon', 'The Panth�on', 'Somerset House', 'The Chrysler Building', 'The Eremitage', 'The CN Tower', 'The Grand Palace', 'The Golden Gate Bridge', 'The Burj Khalifa', 'Neuschwanstein Castle', 'The Louvre Pyramid', 'The Guggenheim Museum Bilbao', 'The Sears Tower (now Willis Tower)', 'The Hoover Dam', 'Potala Palace', 'The Petronas Twin Towers']
+Assigned labels: ['True', 'True', 'True', 'True', 'False', 'True', 'False', 'False', 'True', 'False', 'True', 'False', 'False', 'True', 'False', 'False', 'False', 'False', 'True', 'False']
+True labels: ['True', 'True', 'True', 'True', 'False', 'True', 'True', 'False', 'True', 'False', 'True', 'False', 'False', 'True', 'False', 'False', 'False', 'False', 'True', 'False']
+
+Task 3: 0.8
+Rules: ['General rule: Labels are "True" for real plant names and "False" for fictional or non-existent plant names.']
+Targets: ['Petalochroma spectabilis', 'Goldengrae harvesta', 'Cattleya labiata', 'Bambusa vulgaris', 'Nepenthes alata', 'Penduliflora weepica', 'Stalklumen corncus', 'Papaver somniferum', 'Zea mays', 'Insectaflora devouris', 'Immuniflora fortis', 'Triticum aestivum', 'Sarracenia purpurea', 'Salix babylonica', 'Chrysanthemum indicum', 'Greenstalkasia robusta', 'Insectivoria pitcheris', 'Echinacea purpurea', 'Orchidacea luxurians', 'Capsulapetala dreamica']
+Assigned labels: ['True', 'False', 'True', 'True', 'True', 'False', 'False', 'True', 'True', 'False', 'False', 'True', 'True', 'True', 'False', 'False', 'True', 'True', 'True', 'False']
+True labels: ['False', 'False', 'True', 'True', 'True', 'False', 'False', 'True', 'True', 'False', 'False', 'True', 'True', 'True', 'True', 'False', 'False', 'True', 'False', 'False']
+
+Task 4: 0.6
+Rules: ['General rule: If a brand name is misspelled, it is labeled True; if it is correctly spelled, it is labeled False. There are no exceptions to this rule in the provided list.']
+Targets: ['Pgpsi', 'Louis Vuittou', 'Hyundai', 'Faceboos', 'Lego', 'Adqdas', 'Starbuckp', 'Honda', 'Walmart', 'Gillette', 'Mercedes-Beqz', 'KFC', 'IKEA', 'Visw', 'Puma', 'H&M', 'Acazon', 'Rolex', 'Super m', 'IBl']
+Assigned labels: ['True', 'False', 'True', 'True', 'False', 'True', 'True', 'False', 'False', 'False', 'True', 'True', 'False', 'False', 'False', 'True', 'False', 'True', 'False', 'True']
+True labels: ['True', 'True', 'False', 'True', 'False', 'True', 'True', 'False', 'False', 'False', 'True', 'False', 'False', 'True', 'False', 'False', 'True', 'False', 'True', 'True']
+
+Task 5: 0.85
+Rules: ['General rule: Phrases in Spanish are labeled "True," and phrases in Latin are labeled "False." There are no exceptions to this rule in the provided list.']
+Targets: ['Flumina profundis', 'Fuego ardiente', 'Spes vitae', 'Mano amiga', 'Vox populi', 'Esperanza viva', 'Iter longum', 'Veritas lux mea', 'Voz potente', 'Camino largo', 'Verdad pura', 'Manus manum lavat', 'Verbum sapienti', 'Ojo vigilante', 'Ignis aurum probat', 'Oculus pro oculo', 'Palabra sabia', 'Silencio dorado', 'Auribus teneo lupum', 'R�o profundo']
+Assigned labels: ['False', 'True', 'False', 'True', 'False', 'True', 'False', 'False', 'False', 'True', 'False', 'False', 'False', 'True', 'False', 'False', 'False', 'True', 'False', 'True']
+True labels: ['False', 'True', 'False', 'True', 'False', 'True', 'False', 'False', 'True', 'True', 'True', 'False', 'False', 'True', 'False', 'False', 'True', 'True', 'False', 'True']
+
+Task 6: 0.85
+Rules: ['General rule: Items primarily associated with the color blue are labeled True; all others are labeled False. There are no exceptions to this rule in the provided list.']
+Targets: ['Cold', 'Facebook icon', 'Fox', 'Wine', 'Copper', 'Whale', 'Glacier', 'Fire ant', 'Starry night', 'Cornflower', 'Blue tang', 'Beet', 'Mars', 'Stop sign', 'Lake', 'Rust', 'Strawberry', 'Iris', 'Peacock', 'Lipstick']
+Assigned labels: ['False', 'False', 'False', 'False', 'True', 'True', 'True', 'False', 'True', 'True', 'True', 'False', 'False', 'False', 'True', 'False', 'False', 'True', 'True', 'False']
+True labels: ['True', 'True', 'False', 'False', 'False', 'True', 'True', 'False', 'True', 'True', 'True', 'False', 'False', 'False', 'True', 'False', 'False', 'True', 'True', 'False']
+
+Task 7: 0.95
+Rules: ['General rule: A word is labeled True if it is a palindrome, otherwise it is labeled False. There are no exceptions to this rule.']
+Targets: ['hbypqqpybh', 'yhnubbunhy', 'xvqlngjode', 'mcfwrrwfcm', 'tprvttvrpt', 'afuedtdwet', 'kyqwrqhnic', 'lgtizwbktq', 'jdzkmmkzdj', 'vahsiishav', 'gdnyxeheiq', 'hazgevxfog', 'ooqsapbvtw', 'txffuuffxt', 'msejydhtyx', 'ipnphrqdkf', 'jjdtvkfile', 'lpymjjmypl', 'spkappakps', 'odsciicsdo']
+Assigned labels: ['True', 'True', 'False', 'True', 'True', 'False', 'False', 'False', 'True', 'True', 'False', 'False', 'False', 'True', 'False', 'False', 'True', 'True', 'True', 'True']
+True labels: ['True', 'True', 'False', 'True', 'True', 'False', 'False', 'False', 'True', 'True', 'False', 'False', 'False', 'True', 'False', 'False', 'False', 'True', 'True', 'True']
+
